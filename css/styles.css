@@ -7,8 +7,9 @@ body {
 header{
   text-align: right;
   padding: 10px;
-  background-image: url(../img/head1.jpg);
-  height: 200px;
+  /* background-image: url(../img/head1.jpg); */
+  background-color: grey;
+  height: 160px;
   background-size: cover;
   background-position: 50% 50%;
   margin-bottom: 60px;
@@ -23,12 +24,12 @@ header ul{
 header li{
   display: inline-block;
   padding: 4px 8px;
-  font-size: 12px;
+  font-size: 28px;
 }
 
 header li > a{
   text-decoration: none;
-  color: #0F0;
+  color: #0FF;
 }
 
 header li > a:hover {
@@ -61,7 +62,7 @@ section p{
 }
 
 .works{
-  width: 480px;
+  max-width: 480px;
   margin: 60px auto;
   border-bottom: 1px solid gray;
 }
